@@ -8,3 +8,4 @@ runs:
       with:
         deno-version: vx.x.x
     - run: deno main.ts
+      shell: bash
