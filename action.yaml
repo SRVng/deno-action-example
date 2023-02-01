@@ -1,0 +1,10 @@
+name: "Testing Deno"
+description: "Test if Deno is worth it"
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v3
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: vx.x.x
+    - run: deno main.ts
