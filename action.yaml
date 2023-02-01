@@ -7,5 +7,5 @@ runs:
     - uses: denoland/setup-deno@v1
       with:
         deno-version: vx.x.x
-    - run: deno run --allow-env main.ts
+    - run: deno run --allow-env --allow-net main.ts
       shell: bash
